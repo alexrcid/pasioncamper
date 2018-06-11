@@ -606,7 +606,9 @@ i{
         height:220px;
         width:220px;
     }
-	
+    .image-temporal-carousel{
+        padding-top: 1%;
+    }
 }
 
 
@@ -707,6 +709,20 @@ i{
     .image-temporal-carousel{
         padding-top: 23%;
     }
+    .contact-button {
+        background-color: #816001;
+        border-bottom: 2px solid #5e4600;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        color: #ffffff;
+        width: 24.4%;
+        height: 5%;
+        font-size: 70%;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
 }
 
 @media  (min-width:410px) and  ( max-width: 536px) {
@@ -716,6 +732,20 @@ i{
     .image-temporal-carousel{
         padding-top: 29%;
     }
+    .contact-button {
+        background-color: #816001;
+        border-bottom: 2px solid #5e4600;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        color: #ffffff;
+        width: 24.4%;
+        height: 5%;
+        font-size: 70%;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
 }
 
 @media  ( max-width: 410px) {
@@ -724,6 +754,20 @@ i{
     }
     .image-temporal-carousel{
         padding-top: 37%;
+    }
+    .contact-button {
+        background-color: #816001;
+        border-bottom: 2px solid #5e4600;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        color: #ffffff;
+        width: 24.4%;
+        height: 5%;
+        font-size: 70%;
+        border-top: none;
+        border-left: none;
+        border-right: none;
     }
 }
  /* ***************************************  FOOTER **************************************** */
