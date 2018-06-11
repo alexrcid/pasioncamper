@@ -1,6 +1,6 @@
 const express = require('express');
 const expressLayouts = require('express-ejs-layouts');
-
+const port = process.env.PORT || 3000;
 
 const app = express();
 
@@ -104,6 +104,4 @@ app.get('/venta', (req, res, next) => {
 
 
 
-app.listen(3000, () => {
-  console.log('Server iniciado en http://localhost:3000');
-})
+app.listen(port);
