@@ -659,6 +659,7 @@ i{
             float:right;
             margin-bottom :40px; 
       }
+    
 }
 
 @media (max-width: 380px) {
@@ -702,19 +703,28 @@ i{
 @media (min-width:536px) and ( max-width: 585px) {
 	 .team_hr {
 		width: 28%;
-	}
+    }
+    .image-temporal-carousel{
+        padding-top: 23%;
+    }
 }
 
 @media  (min-width:410px) and  ( max-width: 536px) {
 	 .team_hr {
 		width: 21%;
-	}
+    }
+    .image-temporal-carousel{
+        padding-top: 29%;
+    }
 }
 
 @media  ( max-width: 410px) {
 	 .team_hr {
 		width: 11%;
-	}
+    }
+    .image-temporal-carousel{
+        padding-top: 37%;
+    }
 }
  /* ***************************************  FOOTER **************************************** */
 
