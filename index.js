@@ -42,15 +42,24 @@ app.get('/bateria', (req, res, next) => {
 })
 
 
-app.get('/panelsolar', (req, res, next) => {
+app.get('/electricidad', (req, res, next) => {
   
-  res.render('eq/panelsolar');
+  res.render('eq/electricidad');
 })
 
-
-app.get('/tapiceria', (req, res, next) => {
+app.get('/gas', (req, res, next) => {
   
-  res.render('eq/tapiceria');
+  res.render('eq/gas');
+})
+
+app.get('/agua', (req, res, next) => {
+  
+  res.render('eq/agua');
+})
+
+app.get('/accesorios', (req, res, next) => {
+  
+  res.render('eq/accesorios');
 })
 
 
