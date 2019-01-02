@@ -96,9 +96,9 @@ app.get('/citroen-jumper-h2', (req, res, next) => {
 
 
 
-app.get('/venta', (req, res, next) => {
+app.get('/transformaciones', (req, res, next) => {
   
-  res.render('venta');
+  res.render('transformaciones');
 })
 
 

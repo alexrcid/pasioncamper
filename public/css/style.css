@@ -22,17 +22,17 @@ body {
 h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neue, sans-serif; }
 
 * {
-  -webkit-border-radius: 0 !important;
-     -moz-border-radius: 0 !important;
-          border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
 }
 
 .templatemo_clear {
-	clear: both;
+    clear: both;
 }
 
 .height30 {
-	height: 30px;
+    height: 30px;
 }
 
 .templatemo-top-bar {
@@ -51,9 +51,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
     position: fixed;
 }
 
-.templatemo-top-menu .navbar-toggle {
-    margin-top: 38px;
-}
+
 
 .templatemo-top-menu .navbar-brand {
     padding: 0;
@@ -62,21 +60,9 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 .navbar-default {
     background-color: #000 !important;
     border: none;
-
-}
-
-
-@media (min-width: 768px) {
-
-}
-
-@media (max-width: 768px) {
-
-}
-
-@media (max-width: 1024px) {
     
 }
+
 
 /* ------ End of Carousel ----- */
 
@@ -87,14 +73,14 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .templatemo-welcome-margin {
-     margin-top: 8%;
+    margin-top: 7.5%;
 }
 
 .templatemo-slogan {
     font-family:  'Open Sans', sans-serif;
     font-weight: normal;
     font-size: 30px;
-    margin: 50px 0;
+    margin: 30px 0;
     color: #333333;
 }
 
@@ -189,7 +175,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
     min-width: 298px;
     height: 67px;
     color: #fff; 
-
+    
 }
 
 .team_hr {
@@ -216,7 +202,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
     font-family:  'Open Sans', sans-serif;
     min-height:590px;
     color:#ffffff;
-
+    
 }
 .templatemo-line-header {
     margin-top:100px;
@@ -363,14 +349,14 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 #templatemo-contact {
-	margin-top:100px; 
+    margin-top:100px; 
 	border-top: 1px solid #cccccc; 
 	font-size:14px;
 }
 .templatemo-contact-map {
     margin-bottom: 15px;
     height: 378px;
-
+    
 }
 
 .head_contact {
@@ -379,7 +365,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .contact_right img {
-	margin-right:5px;
+    margin-right:5px;
 }
 
 .contact_right form {
@@ -399,7 +385,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .templatemo-partners {
-	border-top: 2px solid #cccccc;
+    border-top: 2px solid #cccccc;
 }
 
 .templatemo-partners .templatemo-partner-item {
@@ -407,17 +393,17 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .templatemo-footer {
-	border-top: 2px solid #cccccc; 
+    border-top: 2px solid #cccccc; 
 	margin-top: 100px;
 }
 
 .footer_container {
-	margin-top:60px; 
+    margin-top:60px; 
 	margin-bottom:20px;
 }
 
 .footer_bottom_content {
-	margin: auto;
+    margin: auto;
 	margin-bottom: 30px;
 	font-size: 14px;
 	color:#333333;
@@ -483,21 +469,21 @@ ul.templatemo-project-gallery  li  a img:hover {
 }
 
 .templatemo-gallery-category a {
-	color:#333333; 
+    color:#333333; 
 }
 
 .templatemo-gallery-category a.active {
-	color:#e67e22; 
+    color:#e67e22; 
 	text-decoration:none;
 }
 
 .templatemo-gallery-category a:focus {
-	color:#e67e22;
+    color:#e67e22;
 	text-decoration:none;	
 }
 
 .templatemo-gallery-category a:hover {
-	color:#e67e22; 
+    color:#e67e22; 
 	text-decoration:none;
 }
 
@@ -514,7 +500,7 @@ ul.templatemo-project-gallery  li  a img:hover {
     margin-bottom:25px;           
 }
 .templatemo-project-gallery li img {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .templatemo-tweets {
@@ -537,12 +523,12 @@ ul.templatemo-project-gallery  li  a img:hover {
 }
 
 .btn_loadmore {
-	margin-top:30px; 
+    margin-top:30px; 
 	margin-bottom:80px;
 }
 
 .blog_box {
-	margin-left: -12px;
+    margin-left: -12px;
 }
 
 .contact-button{
@@ -577,23 +563,95 @@ i{
     font-size: 40pt;
     text-align: center;
     margin-top: 24%;
-    margin-bottom: 50%;
+    margin-bottom: 15.5%;
 }
 .image-temporal-carousel{
     height: 16%;
     width: 100vw;
 }
 
+/* ********************************** IPHONE 7 PLUS ******************************************** */
+
+@media  (min-width:410px) and  ( max-width: 536px) {
+    .templatemo-welcome-margin {
+        margin-top: 30%;
+    }
+    .templatemo-top-menu .navbar-toggle {
+        text-align: end;
+        position: absolute;
+        right: -9%;
+        top: 8%;
+        border: none;
+    }
+     .team_hr {
+        width: 21%;
+    }
+    .image-temporal-carousel{
+        padding-top: 29%;
+    }
+    .contact-button {
+        background-color: #816001;
+        border-bottom: 2px solid #5e4600;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        color: #ffffff;
+        width: 24.4%;
+        height: 5%;
+        font-size: 50%;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+    
+}
+
+/* ********************************** IPHONE 6 ******************************************** */
+
+@media  ( max-width: 410px) {
+    .templatemo-top-menu .navbar-toggle {
+        text-align: end;
+        position: absolute;
+        right: -9%;
+        top: 8%;
+        border: none;
+    }
+     .team_hr {
+        width: 11%;
+    }
+    .image-temporal-carousel{
+        padding-top: 37%;
+    }
+    .contact-button {
+        background-color: #816001;
+        border-bottom: 2px solid #5e4600;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        color: #ffffff;
+        width: 24.4%;
+        height: 5%;
+        font-size: 50%;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+    .templatemo-welcome-margin {
+        margin-top: 33%;
+    }
+}
+
+
 @media (min-width:991px) and (max-width:1200px) {
     .templatemo-project-box, .project-overlay {
         height:170px;
         width:170px;
     }
-
+    
     .templatemo-project-gallery {
         margin-left: -70px;
     }
-
+    
     .templatemo-service-item-header {
         padding: 16px 10px 20px;
     }
@@ -624,8 +682,19 @@ i{
     }
 }
 
+/* ************************************ IPAD ******************************************** */
 
-@media (min-width:768px) and (max-width:990px) {
+@media (min-width:768px) and (max-width:1024px) {
+    .templatemo-welcome-margin {
+        margin-top: 16%;
+    }
+    .title-production{
+        color: #816001;
+        font-size: 40pt;
+        text-align: center;
+        margin-top: 24%;
+        margin-bottom: 42%;
+    }
     .member-thumb .thumb-overlay {
         padding-left: 30%;
     }
@@ -645,7 +714,7 @@ i{
 }
 
 
-@media (min-width: 768px) {
+ @media (min-width: 768px) {
   .navbar-nav > li > a {
     padding-top: 9px;
     padding-bottom: 9px;
@@ -653,6 +722,7 @@ i{
 }
 
 @media (max-width: 768px) {
+
     .member-thumb .thumb-overlay {
         padding-left: 40%;
        
@@ -662,9 +732,16 @@ i{
             margin-bottom :40px; 
       }
     
-}
+} 
 
-@media (max-width: 380px) {
+ @media (max-width: 380px) {  
+    .templatemo-top-menu .navbar-toggle {
+    text-align: end;
+    position: absolute;
+    right: -9%;
+    top: 8%;
+    border: none;
+}
     .member-thumb .thumb-overlay {
             padding-left: 30%;
 
@@ -677,7 +754,6 @@ i{
 	.templatemo-header-orange {
 		min-width: 0px;
 	}
-	
 }
 
 @media (min-width:991px) and (max-width: 1200px) {
@@ -693,16 +769,30 @@ i{
 }
 
 @media (min-width:585px) and ( max-width: 683px) {
+    .templatemo-top-menu .navbar-toggle {
+        text-align: end;
+        position: absolute;
+        right: -9%;
+        top: 8%;
+        border: none;
+    }
         .member-thumb .thumb-overlay {
             padding-left: 25%;
 
         }
 	 .team_hr {
 		width: 30%;
-	}
+    }
 }
 
 @media (min-width:536px) and ( max-width: 585px) {
+    .templatemo-top-menu .navbar-toggle {
+        text-align: end;
+        position: absolute;
+        right: -9%;
+        top: 8%;
+        border: none;
+    }
 	 .team_hr {
 		width: 28%;
     }
@@ -718,58 +808,13 @@ i{
         color: #ffffff;
         width: 24.4%;
         height: 5%;
-        font-size: 70%;
+        font-size: 50%;
         border-top: none;
         border-left: none;
         border-right: none;
     }
-}
-
-@media  (min-width:410px) and  ( max-width: 536px) {
-	 .team_hr {
-		width: 21%;
-    }
-    .image-temporal-carousel{
-        padding-top: 29%;
-    }
-    .contact-button {
-        background-color: #816001;
-        border-bottom: 2px solid #5e4600;
-        -webkit-border-radius: 0;
-        -moz-border-radius: 0;
-        border-radius: 0;
-        color: #ffffff;
-        width: 24.4%;
-        height: 5%;
-        font-size: 70%;
-        border-top: none;
-        border-left: none;
-        border-right: none;
-    }
-}
-
-@media  ( max-width: 410px) {
-	 .team_hr {
-		width: 11%;
-    }
-    .image-temporal-carousel{
-        padding-top: 37%;
-    }
-    .contact-button {
-        background-color: #816001;
-        border-bottom: 2px solid #5e4600;
-        -webkit-border-radius: 0;
-        -moz-border-radius: 0;
-        border-radius: 0;
-        color: #ffffff;
-        width: 24.4%;
-        height: 5%;
-        font-size: 70%;
-        border-top: none;
-        border-left: none;
-        border-right: none;
-    }
-}
+    
+} 
  /* ***************************************  FOOTER **************************************** */
 
 
@@ -783,8 +828,9 @@ i{
     margin-right: auto;
     margin-left: auto;
     color: #e6e6e6;
-    padding: 3.75rem 0;
-  }
+    padding: 0.75rem;
+
+ }
   
   .three-column-footer-contact-form-container .three-column-footer-contact-form::before, .three-column-footer-contact-form-container .three-column-footer-contact-form::after {
     display: table;
@@ -1122,6 +1168,20 @@ i{
   }
   
   @media only screen and ( max-width: 574px ) {
+    .title-production {
+        color: #816001;
+        font-size: 15pt;
+        text-align: center;
+        margin-top: 62%;
+        margin-bottom: 50%;
+    }
+    .templatemo-top-menu .navbar-toggle {
+        text-align: end;
+        position: absolute;
+        right: -9%;
+        top: 8%;
+        border: none;
+    }
     .gallery-portfolio  {
       overflow: hidden;
     }
@@ -1135,4 +1195,6 @@ i{
     }
   }
   
-  @media only screen and ( min-width: 862px ) {   }
+  
+
+
