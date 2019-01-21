@@ -49,6 +49,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
     opacity: 0.86;
     border-bottom: 8px solid #816001;
     position: fixed;
+    height: 16vh;
 }
 
 
@@ -101,7 +102,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
     text-align: justify; 
     margin-top: 25px;
     font-size: 14px;
-    color: #929292;
+    color: #585858;
 }
 
 .subheader {
@@ -120,6 +121,10 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
     -moz-border-radius: 0;
     border-radius: 0;
     color:#ffffff;
+}
+
+.containerpags{
+    margin-top: 10%;
 }
 
 .btn-orange:hover, .btn-orange:focus, .btn-orange:active, .btn-orange.active, .open .dropdown-toggle.btn-orange {
@@ -573,8 +578,21 @@ i{
 /* ********************************** IPHONE 7 PLUS ******************************************** */
 
 @media  (min-width:410px) and  ( max-width: 536px) {
+    .templatemo-top-menu {
+        min-height:110px;
+        background-color:black;
+        z-index: 5000;
+        width:100%;
+        opacity: 0.86;
+        border-bottom: 8px solid #816001;
+        position: fixed;
+        height: 19vh;
+    }
     .templatemo-welcome-margin {
         margin-top: 30%;
+    }
+    .containerpags{
+        margin-top: 35%;
     }
     .templatemo-top-menu .navbar-toggle {
         text-align: end;
@@ -616,6 +634,9 @@ i{
         top: 8%;
         border: none;
     }
+    .containerpags{
+        margin-top: 35%;
+    }
      .team_hr {
         width: 11%;
     }
@@ -638,6 +659,16 @@ i{
     }
     .templatemo-welcome-margin {
         margin-top: 33%;
+    }
+    .templatemo-top-menu {
+        min-height:110px;
+        background-color:black;
+        z-index: 5000;
+        width:100%;
+        opacity: 0.86;
+        border-bottom: 8px solid #816001;
+        position: fixed;
+        height: 21vh;
     }
 }
 
@@ -685,6 +716,19 @@ i{
 /* ************************************ IPAD ******************************************** */
 
 @media (min-width:768px) and (max-width:1024px) {
+    .templatemo-top-menu {
+        min-height:110px;
+        background-color:black;
+        z-index: 5000;
+        width:100%;
+        opacity: 0.86;
+        border-bottom: 8px solid #816001;
+        position: fixed;
+        height: 14vh;
+    }
+    .containerpags{
+        margin-top: 18%;
+    }
     .templatemo-welcome-margin {
         margin-top: 16%;
     }
@@ -1154,6 +1198,7 @@ i{
   p {
     margin-bottom: 20px;
     margin-top: 0px;
+    color: #585858;
   }
   /* ==========================================================
   Responsive-ness
