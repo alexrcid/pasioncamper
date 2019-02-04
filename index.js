@@ -68,9 +68,9 @@ app.get('/trabajos', (req, res, next) => {
   res.render('trabajos');
 })
 
-app.get('/fiat-ducato', (req, res, next) => {
+app.get('/fiat-ducato-l2', (req, res, next) => {
 
-  res.render('fu/fiat-ducato');
+  res.render('fu/fiat-ducato-l2');
 })
 
 app.get('/nissan-interestar', (req, res, next) => {
@@ -103,7 +103,25 @@ app.get('/citroen-jumper-h2', (req, res, next) => {
   res.render('fu/citroen-jumper-h2');
 })
 
+app.get('/fiat-ducato-l1', (req, res, next) => {
 
+  res.render('fu/fiat-ducato-l1');
+})
+
+app.get('/fiat-ducato-l1-2', (req, res, next) => {
+
+  res.render('fu/fiat-ducato-l1-2');
+})
+
+app.get('/california-beach', (req, res, next) => {
+
+  res.render('fu/california-beach');
+})
+
+app.get('/peugeot-boxer-l2', (req, res, next) => {
+
+  res.render('fu/peugeot-boxer-l2');
+})
 
 app.get('/transformaciones', (req, res, next) => {
   
